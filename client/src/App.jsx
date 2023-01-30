@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 
 // Pages
 import Work from "./pages/Work";
+
 // import Projects from "./pages/Projects";
 import About from "./pages/About";
 
