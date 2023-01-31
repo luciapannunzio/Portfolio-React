@@ -11,7 +11,7 @@ import Work from "./pages/Work";
 import About from "./pages/About";
 
 // Styles
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

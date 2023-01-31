@@ -2,7 +2,7 @@ import React from 'react';
 import{ Link } from 'react-router-dom';
 
 // Style
-import "../styles/Navbar.css";
+// import "../styles/Navbar.css";
 
 function Navbar() {
   return (
