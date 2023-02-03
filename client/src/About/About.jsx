@@ -16,12 +16,12 @@ function About() {
        <p>Hi there! I am Lucia, a Junior Full-Stack Developer with 8+ years experience in visual arts.</p> <p> My unique background allows me to build creative tech solutions – and now I’m looking to further grow and refine my skills within a collaborative team.</p>
        
        <p>I am excited to make the leap and continue refining my skills with the right company. <a className='email' href="mailto:luciapannunzio@gmail.com" target='blank'>
-       Drop me a line </a>or check me on at:</p><div className='link'><a className='link-one' href='https://github.com/luciapannunzio' target='blank'> GITHUB </a><a className='link-two' href='https://www.linkedin.com/in/luciapannunziovanderwedden/' target='blank'> LinkedIn </a></div>
+       Drop me a line </a>or check me on at:</p><div className='link'> <a className='link-one' href='https://github.com/luciapannunzio' target='blank'> GITHUB </a> <a className='link-two' href='https://www.linkedin.com/in/luciapannunziovanderwedden/' target='blank'> LinkedIn </a> </div>
        
        <p className='skills'>
        <br/>
        SKILLS/TOOLKITS 
-       <hr></hr>
+       <hr style={{border:"0.8px solid black"}}/>
        <br/>
        HTML5 
        <br/>
@@ -33,23 +33,19 @@ function About() {
        <br/>
        JavaScript 
        <br/>
-       React 
+       ReactJS
        <br/>
        NodeJS 
        <br/>
        MongoDB 
        <br/>
-       Express 
-       <br/>
-       API Postman 
-       <br/>
-       API Insomnia 
+       ExpressJS 
        <br/>
        GitHub 
        <br/>
        Figma 
        <br/>
-       Terminal
+       Git
        <br/>
        Linux
        <br/>
