@@ -7,24 +7,16 @@
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   padding: 0;
   margin: 0;
   background: linear-gradient(#cbabf5, #cef6ae);
 }
 
-/*#root {
-  max-width: 1024px; /* Helps make page look better on BIG screens, also gives max image size */
-/* min-width: 320px; /* Avoid content smushing with very small windows */
-/*margin: 0 auto;*/
-/*}*/
+// #root {
+// max-width: 1024px; // Helps make page look better on BIG screens, also gives max image size */
+// min-width: 320px; // Avoid content smashing with very small windows */
+// margin: 0 auto;
+// }
 
 /* =============================================== */
-
-.bio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  margin-top: 200px;
-}

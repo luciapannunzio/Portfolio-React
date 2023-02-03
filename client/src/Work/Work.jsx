@@ -1,10 +1,13 @@
+// Libraries
 import React from "react";
 // import { FaChevronDown } from "react-icons/fa";
 // import { Link } from "react-scroll";
 
-// Style
-import '../App.scss';
+// Components
 import Projects from "../components/Projects/Projects";
+
+// Style
+import './Work.scss';
 
 function Work() {
   return (

@@ -1,5 +1,7 @@
-import React, { useRef, useState } from "react";
+// Libraries
+import React, { useRef } from "react";
 
+// Icon
 import { FaChevronDown } from "react-icons/fa";
 
 // Assets
