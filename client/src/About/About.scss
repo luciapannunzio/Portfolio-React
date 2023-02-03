@@ -1,0 +1,40 @@
+.about-page {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  .text-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .email {
+    text-decoration: none;
+  }
+  .link {
+    margin-right: 80rem;
+  }
+  .link-one {
+    text-decoration: none;
+    border: 2px black solid;
+    border-radius: 25px;
+  }
+  .link-two {
+    text-decoration: none;
+    border: 2px black solid;
+    border-radius: 25px;
+  }
+  .skills {
+    margin-right: 80rem;
+  }
+  .img {
+    width: 20vw;
+    margin: 70px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+

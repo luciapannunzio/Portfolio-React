@@ -2,12 +2,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Components
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Projects/Projects";
 
-// Pages
-import Work from "./pages/Work";
-// import Projects from "./pages/Projects";
-import About from "./pages/About";
+import Work from "./Work/Work";
+import About from "./About/About";
 
 // Styles
 import "./App.scss";
@@ -19,9 +18,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Work />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
           <Route path="/about" element={<About />} />
         </Routes>
+        <Projects />
       </Router>
     </div>
   );

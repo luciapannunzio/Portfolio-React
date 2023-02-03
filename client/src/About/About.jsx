@@ -3,6 +3,9 @@ import React from 'react';
 
 import profile from '../assets/img/profile.jpg';
 
+// Style
+import './About.scss';
+
 function About() {
   return (
     <div className='about-page'>
