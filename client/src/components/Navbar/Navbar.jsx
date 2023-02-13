@@ -11,7 +11,7 @@ function Navbar() {
       <Link className="work" to="/projects">✿ Work</Link>  
       <Link className='about' to="/about">About ✿</Link>
       </div>
-      <hr style={{border:"0.8px solid black"}}/>
+      <hr style={{border:"0.8px solid black", width:"100%"}}/>
     </div>
   )
 }
