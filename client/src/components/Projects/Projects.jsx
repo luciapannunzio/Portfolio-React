@@ -5,6 +5,7 @@ import React, { useRef } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
 // Assets
+import img from "../../assets/img/screen.png";
 import img0 from "../../assets/img/screen00.png";
 import img1 from "../../assets/img/screen01.png";
 import img2 from "../../assets/img/screen02.png";
@@ -41,6 +42,7 @@ function Projects() {
         }
       /> </div>
         <div style={{ marginTop: "600px" }} ref={positionImages}>
+          <img className="img-project" src={img} alt="" />
           <img className="img-project" src={img0} alt="" />
           <img className="img-project" src={img1} alt="" />
           <img className="img-project" src={img2} alt="" />
